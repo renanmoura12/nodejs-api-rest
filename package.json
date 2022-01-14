@@ -1,0 +1,30 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "description": "Curso de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanmoura12/nodejs-api-rest.git"
+  },
+  "author": "Renan Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanmoura12/nodejs-api-rest/issues"
+  },
+  "homepage": "https://github.com/renanmoura12/nodejs-api-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "save-dev": "^0.0.1-security",
+    "swagger-autogen": "^2.18.8",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
